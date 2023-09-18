@@ -11,15 +11,7 @@ function App() {
   if (!isLoaded) return <div>Loading...</div>;
 
   return (
-    <div className='container'>
-      <div className='controls'>
-        CONTROLS
-      </div>
-
-      <div className='map'>
-        <Map />
-      </div>
-    </div>
+    <Map />
   );
 }
 

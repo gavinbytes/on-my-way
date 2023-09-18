@@ -21,11 +21,16 @@ body {
 .controls {
   width: 20%;
   padding: 1rem;
-  background-color: cadetblue;
-  color: blue;
+  background-color: black;
+  color: white;
 }
 
 .map {
   width: 80%;
   height: 100vh;
+}
+
+.combobox-input {
+  width: 100%;
+  padding: 0.5rem;
 }
